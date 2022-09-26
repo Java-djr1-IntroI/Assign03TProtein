@@ -1,9 +1,20 @@
-CS250 Assignment 2\
-Protein Creation
+**Assign 03 - Protein Creation**
 
-**Date Assigned:** Monday, February 12, 2018\
-**Date Due:** Wednesday, February 21, 2018\
-**Points:** 35
+**Date assigned:**
+
+**Program due:**
+
+**Points:**
+
+**This is an individual assignment.**
+
+**Goals:**
+
+1.  Write a complete program that uses loops to solve a simulation.
+
+2.  Error check user input.
+
+3.  Test edge cases for the simulation
 
 ![](media/image1.tiff){width="2.12in" height="2.12in"}
 
