@@ -59,13 +59,16 @@ DNA string and one intron in the file strings.txt.
 
 Consider the following sample dataset:
 
-**ATGGTGCATCTGACTCCTGAGGAGAAGTAG**
-
-**CTGACT**
+<pre>
+ATGGTGCATCTGACTCCTGAGGAGAAGTAG
+CTGACT
+</pre>
 
 The protein string produced is:
 
-**MVHPEEK**
+<pre>
+MVHPEEK
+</pre>
 
 Question: How does ATG in the original DNA string become M in the
 protein string?
@@ -117,7 +120,7 @@ Protein
 MVHPEEK
 </pre>
 
-[Error Checking]{.underline}
+**Error Checking**
 
 1\) Make sure all bases of the coding region are legit. If not, print
 out "Illegal Coding Region" and terminate the program.
@@ -128,70 +131,29 @@ Codon" and terminate the program.
 3\) Make sure a legit stop codon is encountered in the mRNA before the
 end of the string is reached. If not, print out "No Stop Codon"
 
-[Hints]{.underline}
+**Deliverables**
 
-1\) I have two .h files CodonToAminoAcid.h and Genetics.h
-
-2\) I have used the following string functions: a) length, b) at, c)
-insert, d) find, e) erase, f) substr, g) push_back
-
-[Notes]{.underline}
-
-1\) You must break your program up into .h and .cpp files.
-
-2\) You solution must only use C++ strings and no C-strings (i.e. no
-char \[\]).
+1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon to Amino Acid Table. This logic will allow the lookup of any amino acid and return the corresponding amino acid.
 
 **To complete this assignment you must submit the following:**
 
-# An electronic copy of your program on Grace 
+1.  **An electronic Solution of your program on GitHub**
 
-a)  Add a project called **02_ProteinCreation** to your existing
-    solution **PUNetID-Assignments**. It is vital that you name your
-    project correctly! Further, only 2 projects are to exist in your
-    solution space.
+    a.  You are to click on the Assign03 Link to accept this
+        assignment. Once accepted, code up a
+        complete solution to the above assignment specification. Your
+        complete solution is to be pushed to GitHub no later than the
+        date and time specified above for your specific section. I will
+        only grade your solution from the proper location on GitHub.
 
-b)  Type your program (fully documented/commented) into the project. You
-    need to follow the coding standards from the CS250 Web page. These
-    coding standards have been modified to include additional C++
-    language features introduced in CS250, so please be sure to read the
-    new coding standards.
+    b.  Pay attention to the example output above. Your program's output
+        must look **exactly** like the example output! The spacing and
+        newlines in your output must match exactly.
 
-c)  Pay attention to the example output. Your program's output must look
-    **exactly** like the sample output. The spacing and newlines in your
-    output must match exactly.
+    c.  Make sure that your program compiles and runs correctly with no
+        errors and no warnings. If you get any errors, double check that
+        you typed everything correctly. Be aware that C++ is
+        case-sensitive.
 
-d)  Make sure that your program builds without errors & warnings and
-    runs correctly. If you get any errors or warnings, double check that
-    you typed everything correctly. Be aware that C++ is case-sensitive.
-    You will lose 10% if there are any warnings and 40% if your program
-    does not build successfully.
+2.  **An electronic copy of your program (punetidAssign03Protein.pdf) is to be emailed to ryandj@pacificu.edu**
 
-e)  Once you are sure that the program works, it is time to submit your
-    program. You do this by logging on to Grace and placing your
-    complete solution folder in the correct drop folder based on the
-    section of the course in which you are enrolled (**CS250-XX Drop**).
-
-f)  The solution must be in the drop folder by the time class starts on
-    the day the assignment is due. Anything submitted after that will be
-    considered late.
-
-g)  If you drop multiple solutions, you will lose 10% of the assignment
-    points, so do not drop until you are entirely sure you are
-    completely done working on the assignment.
-
-# A hard copy of your program 
-
-a)  The hard copy must be placed on the instructor's desk by the time
-    class starts on the day that it is due.
-
-b)  The hard copy must be printed in color, double-sided, and stapled in
-    the upper left corner if your solution contains multiple pages.
-
-c)  Your tab size must be set to 2 and you must not go past column 80 in
-    your output.
-
-> **Remember, if you have any problems, come to me straight away with
-> your project on a flash drive or on**
->
-> **Grace. Good Luck!!!!** 
