@@ -133,7 +133,7 @@ end of the string is reached. If not, print out "No Stop Codon"
 
 **Deliverables**
 
-1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon to Amino Acid Table. This logic will allow the lookup of any amino acid and return the corresponding amino acid.
+1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon to Amino Acid Table. This logic will allow the lookup of any codon and return the corresponding amino acid.
 
 **To complete this assignment you must submit the following:**
 
