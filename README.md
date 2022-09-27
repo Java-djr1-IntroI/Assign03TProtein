@@ -29,7 +29,7 @@ replication.
 
 Genes contain the information that determine a person's traits which are
 features or characteristics inherited by the person's parents. Each cell
-in the human body contains around 19,000 genes and the number continues
+in the human body contains around 20,000 genes and the number continues
 to be revised down over time. In molecular terms, a gene is a region of
 DNA that contains code used to make a polypeptide (a molecular chain).
 Polypeptides link together to form proteins which perform a vast array
@@ -47,7 +47,7 @@ out and the exons are sequentially put together. This process, cutting
 and pasting, is known as splicing. The exons deriving from a gene are
 collectively referred to as the "coding region." Now how cool is that???
 
-Assume the introns and exons of an pre-mRN string have been identified. The
+Assume the introns and exons of an pre-mRNA string have been identified. The
 problem of creating the coding region is simply deleting the introns and
 concatenating the exons to form a new string ready for translation.
 Therefore, given a DNA string (at most 1000 characters) and a collection
@@ -83,11 +83,9 @@ across two codons.
 
 How to solve this problem?
 
-1\) The file CodonToAminoAcidTable.txt exists in the Public folder on
-grace. You are to load this table into an array of structs called
-**asCodonToAminoAcidTable**.
+1\) Load up a Codon set from a file created from this <a href="https://github.com/zhanxw/anno/blob/master/codon.txt">Codon Table</a>. Name the file <b>codontable.txt</b> in your program.
 
-2\) The file **strings.txt** contains a DNA string and a collection (one
+2\) Create a file <b>strings.txt</b> that contains a DNA string and a collection (one
 for this assignment) of substrings acting as introns.
 
 3\) Convert the DNA string into a pre-mRNA string.
@@ -96,10 +94,9 @@ for this assignment) of substrings acting as introns.
 
 5\) Convert the mRNA string into a protein.
 
-The main challenge of this problem is the design. Think well defined
-functions that have one purpose!!!!!
+The main challenge of this problem is the design!!!!!
 
-The output from your program is:
+The output from your program is to look exactly like the following:
 
 <pre>
 Protein Creation
@@ -133,7 +130,7 @@ end of the string is reached. If not, print out "No Stop Codon"
 
 **Deliverables**
 
-1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon to Amino Acid Table. This logic will allow the lookup of any codon and the return of any information in the table. A Codon table can be found at: <a href="https://github.com/zhanxw/anno/blob/master/codon.txt">Codon Table</a>. Hint: A correct design will use minimally a Codon class and a CodonSet class where CodonSet will have a member that can hold an array of Codons. This deliverable must be approved before any coding begins.
+1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon Table. This logic will allow the lookup of any codon and the return of any information from the table. A Codon table can be found at: <a href="https://github.com/zhanxw/anno/blob/master/codon.txt">Codon Table</a>. Hint: A correct design will use minimally a Codon class and a CodonSet class where CodonSet will have a member that can hold an array of Codons. This deliverable must be approved before any coding begins.
 
 2. Implement your design from 1. where your driver tests your implementation in 1.
 3. Design the remainder of the problem using UMLet. Add classes as needed. Think reusability and well defined classes. Again, this deliverable must be approved before continuing on with the implementation of the design.
