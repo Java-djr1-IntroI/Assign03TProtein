@@ -10,13 +10,15 @@
 
 **Goals:**
 
-1.  Write a complete program that uses loops to solve a simulation.
+1.  Use composition
 
-2.  Error check user input.
+2.  OOD using UML
 
-3.  Test edge cases for the simulation
+3.  Implement and test each class one method at a time
 
-![](media/image1.tiff){width="2.12in" height="2.12in"}
+4.  Code reusability
+
+<img align="left" src="http://zeus.cs.pacificu.edu/ryand/apcs_a/images/Assignments/Protein/dna.png" alt="DNA">
 
 DNA (deoxyribonucleic acid) is hereditary material found in nearly every
 cell in a person's body and most other organisms. Most DNA is found in
@@ -33,7 +35,11 @@ DNA that contains code used to make a polypeptide (a molecular chain).
 Polypeptides link together to form proteins which perform a vast array
 of functions within organisms.
 
-![](media/image2.png){width="6.5in" height="2.4381944444444446in"}
+![DNA to protein](http://zeus.cs.pacificu.edu/ryand/apcs_a/images/Assignments/Protein/dnatoprotein.png)
+
+**The Problem**
+
+<img align="left" src="http://zeus.cs.pacificu.edu/ryand/apcs_a/images/Assignments/Protein/premrnatomrna.png" alt="DNA">
 
 During transcription, a pre-mRNA contains segments called exons and
 introns. For the purposes of protein translation, the introns are cut
@@ -41,12 +47,7 @@ out and the exons are sequentially put together. This process, cutting
 and pasting, is known as splicing. The exons deriving from a gene are
 collectively referred to as the "coding region." Now how cool is that???
 
-[The Problem]{.underline}
-
-![https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Pre-mRNA_to_mRNA.svg/420px-Pre-mRNA_to_mRNA.svg.png](media/image3.png){width="4.375in"
-height="0.875in"}
-
-Assume the introns and exons of an RNA string have been identified. The
+Assume the introns and exons of an pre-mRN string have been identified. The
 problem of creating the coding region is simply deleting the introns and
 concatenating the exons to form a new string ready for translation.
 Therefore, given a DNA string (at most 1000 characters) and a collection
@@ -54,7 +55,7 @@ of substrings acting as introns (at most 80 characters), create the
 protein string. For the purposes of this assignment, there will be one
 DNA string and one intron in the file strings.txt.
 
-[Example]{.underline}
+**Example**
 
 Consider the following sample dataset:
 
@@ -97,29 +98,24 @@ functions that have one purpose!!!!!
 
 The output from your program is:
 
-**Protein Creation**
+<pre>
+Protein Creation
+----------------
 
-**\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--**
+Coding Region
+-------------
+ATGGTGCATCTGACTCCTGAGGAGAAGTAG
 
-**Coding Region**
+pre-mRNA
+AUGGUGCAUCUGACUCCUGAGGAGAAGUAG
 
-**\-\-\-\-\-\-\-\-\-\-\-\--**
+mRNA
+AUGGUGCAUCCUGAGGAGAAGUAG
 
-**ATGGTGCATCTGACTCCTGAGGAGAAGTAG**
-
-**pre-mRNA**
-
-**AUGGUGCAUCUGACUCCUGAGGAGAAGUAG**
-
-**mRNA**
-
-**AUGGUGCAUCCUGAGGAGAAGUAG**
-
-**Protein**
-
-**\-\-\-\-\-\--**
-
-**MVHPEEK**
+Protein
+-------
+MVHPEEK
+</pre>
 
 [Error Checking]{.underline}
 
