@@ -133,7 +133,11 @@ end of the string is reached. If not, print out "No Stop Codon"
 
 **Deliverables**
 
-1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon to Amino Acid Table. This logic will allow the lookup of any codon and return the corresponding amino acid.
+1. Using UMLet, you are to design the necessary classes that handle any logic relating to the Codon to Amino Acid Table. This logic will allow the lookup of any codon and the return of any information in the table. A Codon table can be found at: <a href="https://github.com/zhanxw/anno/blob/master/codon.txt">Codon Table</a>. Hint: A correct design will use minimally a Codon class and a CodonSet class where CodonSet will have a member that can hold an array of Codons. This deliverable must be approved before any coding begins.
+
+2. Implement your design from 1. where your driver tests your implementation in 1.
+3. Design the remainder of the problem using UMLet. Add classes as needed. Think reusability and well defined classes. Again, this deliverable must be approved before continuing on with the implementation of the design.
+4. Implement your design from 3 where your driver solves the given problem and produces the desired output.
 
 **To complete this assignment you must submit the following:**
 
