@@ -156,7 +156,7 @@ the program.
 
     c.  Make sure that your program compiles and runs correctly with no
         errors and no warnings. If you get any errors, double check that
-        you typed everything correctly. Be aware that C++ is
+        you typed everything correctly. Be aware that Java is
         case-sensitive.
 
 2.  **An electronic copy of your program (punetidAssign03Protein.pdf) is to be emailed to ryandj@pacificu.edu**
